@@ -9,7 +9,10 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     public Image mask;
 
+    private Animator anim;
+
     void Start() {
+        anim = GetComponent<Animator>();
         StartCoroutine(slowDown());
     }
 
@@ -17,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         if(Time.timeSinceLevelLoad > CinematicManager.c_time) {
+            anim.SetBool("stop", false);
             float moveHorizontal = Input.GetAxis ("Horizontal");
             float moveVertical = Input.GetAxis ("Vertical");
             if(moveHorizontal != 0 && moveVertical != 0) {
@@ -37,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
             speed -= 0.003f;
             color.a += 0.01f;
             mask.color = color;
+            anim.SetFloat("speed", speed);
         }
         while (color.a < 1) {
             color.a += 0.005f;
