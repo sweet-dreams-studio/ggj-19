@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d8ce06ecf72768e4da7fd6f3931ed893
+guid: a770d8ebc9386454da96c23aeebb4c8e
 TextureImporter:
   fileIDToRecycleName:
     21300000: Chien-course_0
@@ -84,6 +84,17 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -102,7 +113,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 293079c9a37b04f4dbf333e3701887fe
+      spriteID: fa96947f6e412db4da149a2fe64e843d
       vertices: []
       indices: 
       edges: []
@@ -122,7 +133,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1669596d1a8c024ebafee66abc56680
+      spriteID: 719c6beba5e1f4f428abf49a2e4a1ab4
       vertices: []
       indices: 
       edges: []
@@ -142,7 +153,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31f86d6007ec03a4bb01d719bc39ad09
+      spriteID: 4fd3f65578c11084599bc70688975ee0
       vertices: []
       indices: 
       edges: []
@@ -162,7 +173,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0491dc56779b8a46acf49409ab19af2
+      spriteID: ac3da9613bf6c3c49a2cc692a81dbc6a
       vertices: []
       indices: 
       edges: []
@@ -170,7 +181,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3885d6acaa0776841b5fc02d8e890c5f
+    spriteID: e6838e7461b6545498f43d42137f6d08
     vertices: []
     indices: 
     edges: []

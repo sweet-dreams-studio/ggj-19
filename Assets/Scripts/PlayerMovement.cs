@@ -19,8 +19,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Time.timeSinceLevelLoad > CinematicManager.c_time) {
-            anim.SetBool("stop", false);
+        if(Time.timeSinceLevelLoad > CinematicManager.c_time) {    
             float moveHorizontal = Input.GetAxis ("Horizontal");
             float moveVertical = Input.GetAxis ("Vertical");
             if(moveHorizontal != 0 && moveVertical != 0) {
@@ -30,15 +29,22 @@ public class PlayerMovement : MonoBehaviour
 
             Vector3 movement = new Vector3 (moveHorizontal, moveVertical, 0.0f);
 
-            transform.Translate (movement * speed);
+            if (speed > .045f)
+                transform.Translate (movement * speed);
+            else {
+                transform.Translate (new Vector3(0f, -.05f, 0f));
+                Destroy(GetComponent<Rigidbody>());
+            }
         }
     }
 
     public IEnumerator slowDown() {
         Color color = mask.color;
+        yield return new WaitForSeconds(6f);
+        anim.SetBool("stop", false);
         while (speed > 0.03f) {
             yield return new WaitForSeconds(3f);
-            speed -= 0.003f;
+            speed -= 0.018f;
             color.a += 0.01f;
             mask.color = color;
             anim.SetFloat("speed", speed);
@@ -55,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
         if(other.gameObject.tag == "Respawn") {
             Destroy(other.gameObject, 20f);
             Destroy(other);
-            LevelManager.SpawnNextPrefab(other.gameObject.transform.position);
+            LevelManager.SpawnNextPrefab(other.gameObject.transform.position, other.gameObject.GetComponent<Scroller>().speed);
         }
         if(other.gameObject.tag == "Finish") {
             SceneManager.LoadScene("ECA_gameover");
