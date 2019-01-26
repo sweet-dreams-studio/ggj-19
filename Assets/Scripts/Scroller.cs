@@ -9,8 +9,10 @@ public class Scroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 movement = new Vector3 (0.0f, -1f, 0.0f);
+        if(Time.timeSinceLevelLoad > CinematicManager.c_time) {
+            Vector3 movement = new Vector3 (0.0f, -1f, 0.0f);
 
-        transform.Translate (movement * speed);
+            transform.Translate (movement * speed);
+        }
     }
 }

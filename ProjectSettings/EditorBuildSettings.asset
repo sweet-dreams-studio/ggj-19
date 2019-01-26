@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ECA_Game.unity
     guid: 4381d7d8b083bcb4b88c6f26e10ff95a
+  - enabled: 1
+    path: Assets/Scenes/ECA_gameover.unity
+    guid: d9dfe3b0a3b642b439420445da063cf3
   m_configObjects: {}
