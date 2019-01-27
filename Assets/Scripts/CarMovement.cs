@@ -8,12 +8,18 @@ public class CarMovement : MonoBehaviour
     public float speed_y;
 
     private Animator anim;
+    private GameObject player;
+
+    private static float now = 0f;
+    private float cooldown;
 
     void Start() {
         anim = GetComponent<Animator>();
         if (speed_x != 0) anim.SetInteger("direction", 2);
         if (speed_y < 0) anim.SetInteger("direction", 0);
         if (speed_y > 0) anim.SetInteger("direction", 1);
+        player = GameObject.FindGameObjectsWithTag("Player")[0];
+        cooldown = 4f;
     }
 
     // Update is called once per frame
@@ -23,6 +29,10 @@ public class CarMovement : MonoBehaviour
             Vector3 movement = new Vector3 (speed_x, -speed_y, 0.0f);
 
             transform.Translate (movement);
+        }
+        if ((Time.timeSinceLevelLoad - now > cooldown) && (Vector3.Distance(transform.position, player.transform.position) < 10f)) {
+            SoundManager.Vroum();
+            now = Time.timeSinceLevelLoad;
         }
     }
 
