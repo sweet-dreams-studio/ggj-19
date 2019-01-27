@@ -383,7 +383,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300006, guid: c4151aceabe5e1f43a8cee7a3fab4fdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1152,7 +1152,7 @@ PrefabInstance:
     - target: {fileID: 7344561921015305730, guid: b98918a5830fa4a4cb1139098b9872bb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.45
+      value: 16.010002
       objectReference: {fileID: 0}
     - target: {fileID: 7344561921015305730, guid: b98918a5830fa4a4cb1139098b9872bb,
         type: 3}
@@ -1377,7 +1377,7 @@ PrefabInstance:
     - target: {fileID: 6836904702103613739, guid: 68adcbef8bf0346409e612ed429fc201,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.85
+      value: 8.55
       objectReference: {fileID: 0}
     - target: {fileID: 6836904702103613739, guid: 68adcbef8bf0346409e612ed429fc201,
         type: 3}
@@ -1476,7 +1476,7 @@ PrefabInstance:
     - target: {fileID: 7344561921015305730, guid: b98918a5830fa4a4cb1139098b9872bb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.25
+      value: 10.81
       objectReference: {fileID: 0}
     - target: {fileID: 7344561921015305730, guid: b98918a5830fa4a4cb1139098b9872bb,
         type: 3}
@@ -1679,7 +1679,7 @@ PrefabInstance:
     - target: {fileID: 7344561921015305730, guid: b98918a5830fa4a4cb1139098b9872bb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.75
+      value: -14.46
       objectReference: {fileID: 0}
     - target: {fileID: 7344561921015305730, guid: b98918a5830fa4a4cb1139098b9872bb,
         type: 3}
@@ -1928,7 +1928,7 @@ PrefabInstance:
     - target: {fileID: 7344561921015305730, guid: b98918a5830fa4a4cb1139098b9872bb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.55
+      value: -9.26
       objectReference: {fileID: 0}
     - target: {fileID: 7344561921015305730, guid: b98918a5830fa4a4cb1139098b9872bb,
         type: 3}
