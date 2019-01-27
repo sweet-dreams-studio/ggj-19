@@ -1,7 +1,15 @@
 fileFormatVersion: 2
 guid: a11f2c6e36a1a0f448d4d3357bfeef5f
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Routes-03_0
+    21300002: Routes-03_1
+    21300004: Routes-03_2
+    21300006: Routes-03_3
+    21300008: Routes-03_4
+    21300010: Routes-03_5
+    21300012: Routes-03_6
+    21300014: Routes-03_7
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -47,7 +55,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 515
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -93,11 +101,171 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Routes-03_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3462
+        height: 1898
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebaedebf17e79a04c91488a3636ee007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Routes-03_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3462
+        height: 1898
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc38d9c22a233eb4780f10e21a98efff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Routes-03_2
+      rect:
+        serializedVersion: 2
+        x: 3443
+        y: 0
+        width: 3462
+        height: 1898
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2407153f6fa1a84f920eacdd58ff42d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Routes-03_3
+      rect:
+        serializedVersion: 2
+        x: 6905
+        y: 0
+        width: 3462
+        height: 1898
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277234cca8b01344eae45dbbcc6cd012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Routes-03_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1898
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ac17858b4a46b4a99371e232e842e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Routes-03_5
+      rect:
+        serializedVersion: 2
+        x: 10367
+        y: 0
+        width: 3462
+        height: 1898
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f100280933948444cbb4d5a37ce909f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Routes-03_6
+      rect:
+        serializedVersion: 2
+        x: 13829
+        y: 0
+        width: 3462
+        height: 1898
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467512bd247989741913727139b30f5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Routes-03_7
+      rect:
+        serializedVersion: 2
+        x: 17291
+        y: 0
+        width: 3462
+        height: 1898
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed708a464ec83f4d88da9f029e8a017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4954a252cd11ca444a4d7e1cdb9f4152
+    spriteID: 553095f1e2a61cb49807d4eb3d6e73a1
     vertices: []
     indices: 
     edges: []

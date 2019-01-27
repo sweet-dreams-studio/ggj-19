@@ -14,7 +14,7 @@ public class CinematicManager : MonoBehaviour
     void Update()
     {
         if(Time.timeSinceLevelLoad > 2f && Time.timeSinceLevelLoad < 3.8f) {
-            car.transform.Translate (new Vector3 (0.05f, 0.0f, 0.0f));
+            car.transform.Translate (new Vector3 (0.03f, 0.0f, 0.0f));
         }
         if(Time.timeSinceLevelLoad > 4f) {
             if (!has_rotate) {
@@ -25,7 +25,7 @@ public class CinematicManager : MonoBehaviour
             car.transform.Translate (new Vector3 (0.0f, 0.1f, 0.0f));
         }
         if(Time.timeSinceLevelLoad > 6f &&  Time.timeSinceLevelLoad < 7f) {
-            dog.transform.Translate (new Vector3 (0.09f, 0.025f, 0.0f));
+            dog.transform.Translate (new Vector3 (0.06f, 0.025f, 0.0f));
         }
         if(Time.timeSinceLevelLoad > 9f) {
             Destroy(car);
