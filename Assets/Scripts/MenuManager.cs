@@ -7,12 +7,11 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
 
-    public Button button;
-
-    // Start is called before the first frame update
-    void Start()
+    void Update()
     {
-        button.Select();
+        float action = Input.GetAxis ("Submit");
+        if (action < 0) Leave();
+        if (action > 0) ToGame();
     }
 
     public void ToGame() {

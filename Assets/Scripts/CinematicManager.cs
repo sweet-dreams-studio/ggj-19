@@ -27,7 +27,7 @@ public class CinematicManager : MonoBehaviour
         if(Time.timeSinceLevelLoad > 6f &&  Time.timeSinceLevelLoad < 7f) {
             dog.transform.Translate (new Vector3 (0.06f, 0.025f, 0.0f));
         }
-        if(Time.timeSinceLevelLoad > 9f) {
+        if(Time.timeSinceLevelLoad > 8f) {
             Destroy(car);
             Destroy(gameObject);
         }

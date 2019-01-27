@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7305217030204784511}
   - component: {fileID: 885571843572855484}
   - component: {fileID: 4103052304485318322}
-  - component: {fileID: 2472971785500884696}
   m_Layer: 0
   m_Name: Panneaux-10_0
   m_TagString: Finish
@@ -69,7 +68,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 1328760114882854087b29b36b2d6a2d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -94,15 +93,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.19, y: 0.53, z: 0.2}
   m_Center: {x: 0, y: -2.48, z: 0}
---- !u!122 &2472971785500884696
-Halo:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7766857596571968304}
-  m_Enabled: 1
-  m_Color:
-    serializedVersion: 2
-    rgba: 4286611584
-  m_Size: 5

@@ -562,9 +562,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3602972419455800254}
+  - component: {fileID: 3175018424349822175}
+  - component: {fileID: 1674775999204243827}
   m_Layer: 0
   m_Name: Tuile_02
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -607,6 +609,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3175018424349822175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5340495668993720193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7638ad6c287ffb849a69ddfb1b5041c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.1
+--- !u!65 &1674775999204243827
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5340495668993720193}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6016284935375564428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,6 +1443,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3602972419455800254}
     m_Modifications:
+    - target: {fileID: 9157499637900721940, guid: 89185a6ea858feb43b6f9fc414c1c855,
+        type: 3}
+      propertyPath: m_Name
+      value: Panneaux-11_0
+      objectReference: {fileID: 0}
     - target: {fileID: 7211215083682780284, guid: 89185a6ea858feb43b6f9fc414c1c855,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1470,11 +1503,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9157499637900721940, guid: 89185a6ea858feb43b6f9fc414c1c855,
-        type: 3}
-      propertyPath: m_Name
-      value: Panneaux-11_0
-      objectReference: {fileID: 0}
     - target: {fileID: 1211821720459025725, guid: 89185a6ea858feb43b6f9fc414c1c855,
         type: 3}
       propertyPath: m_Size.x
@@ -1520,6 +1548,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3602972419455800254}
     m_Modifications:
+    - target: {fileID: 5888629070052458740, guid: 8719820aa1082b340ba0fe54cccf4fcd,
+        type: 3}
+      propertyPath: m_Name
+      value: Vegetarien-BF-02_1
+      objectReference: {fileID: 0}
     - target: {fileID: 2910945207933889690, guid: 8719820aa1082b340ba0fe54cccf4fcd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1574,11 +1607,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5888629070052458740, guid: 8719820aa1082b340ba0fe54cccf4fcd,
-        type: 3}
-      propertyPath: m_Name
-      value: Vegetarien-BF-02_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8719820aa1082b340ba0fe54cccf4fcd, type: 3}
@@ -1795,6 +1823,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3602972419455800254}
     m_Modifications:
+    - target: {fileID: 9157499637900721940, guid: 89185a6ea858feb43b6f9fc414c1c855,
+        type: 3}
+      propertyPath: m_Name
+      value: Panneaux-11_0 (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7211215083682780284, guid: 89185a6ea858feb43b6f9fc414c1c855,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1850,11 +1883,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9157499637900721940, guid: 89185a6ea858feb43b6f9fc414c1c855,
-        type: 3}
-      propertyPath: m_Name
-      value: Panneaux-11_0 (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1211821720459025725, guid: 89185a6ea858feb43b6f9fc414c1c855,
         type: 3}
       propertyPath: m_Size.x
@@ -1900,6 +1928,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3602972419455800254}
     m_Modifications:
+    - target: {fileID: 6137233378916396525, guid: 3e2541c7f6848aa43bbd8552914fef2a,
+        type: 3}
+      propertyPath: m_Name
+      value: Vegetarien-BF-01_4
+      objectReference: {fileID: 0}
     - target: {fileID: 7091576640523747800, guid: 3e2541c7f6848aa43bbd8552914fef2a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1954,11 +1987,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6137233378916396525, guid: 3e2541c7f6848aa43bbd8552914fef2a,
-        type: 3}
-      propertyPath: m_Name
-      value: Vegetarien-BF-01_4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e2541c7f6848aa43bbd8552914fef2a, type: 3}
