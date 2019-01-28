@@ -16,7 +16,7 @@ public class Scroller : MonoBehaviour
         if(Time.timeSinceLevelLoad > CinematicManager.c_time) {
             Vector3 movement = new Vector3 (0.0f, 0.0f, -1f);
 
-            transform.Translate (movement * speed);
+            transform.Translate (movement * speed * Time.deltaTime * 60);
         }
     }
 

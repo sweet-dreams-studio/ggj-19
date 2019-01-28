@@ -31,9 +31,9 @@ public class PlayerMovement : MonoBehaviour
             Vector3 movement = new Vector3 (moveHorizontal, moveVertical, 0.0f);
 
             if (speed > .045f)
-                transform.Translate (movement * speed);
+                transform.Translate (movement * speed * Time.deltaTime * 60);
             else {
-                transform.Translate (new Vector3(0f, -LevelManager.lvlspeed, 0f));
+                transform.Translate (new Vector3(0f, -LevelManager.lvlspeed, 0f) * Time.deltaTime * 60);
                 Destroy(GetComponent<Rigidbody>());
             }
         }
@@ -43,13 +43,13 @@ public class PlayerMovement : MonoBehaviour
         Color color = mask.color;
         yield return new WaitForSeconds(6f);
         anim.SetBool("stop", false);
-        while (speed > 0.04f) {
+        do {
             yield return new WaitForSeconds(3f);
-            speed -= 0.005f;
+            speed -= 0.006f;
             color.a += 0.01f;
             mask.color = color;
             anim.SetFloat("speed", speed);
-        }
+        } while (speed > 0.035f);
         StartCoroutine(Death());
     }
 

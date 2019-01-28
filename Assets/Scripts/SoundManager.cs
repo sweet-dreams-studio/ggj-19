@@ -62,7 +62,7 @@ public class SoundManager : MonoBehaviour
     }
 
     public static void Vroum() {
-        svroum.volume = 1f;
+        svroum.volume = .3f;
         svroum.clip = svroumClip[Random.Range(0, svroumClip.Length)];
         svroum.Play();
     }

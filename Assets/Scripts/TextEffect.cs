@@ -9,7 +9,7 @@ public class TextEffect : MonoBehaviour
     private string text;
     private Text UItext;
 
-    public float delay = 2f;
+    public float delay = 0f;
     public float fadeOutTime = 2f;
     public bool leaveAfterText = false;
 

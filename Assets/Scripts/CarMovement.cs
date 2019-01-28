@@ -28,7 +28,7 @@ public class CarMovement : MonoBehaviour
         if(Time.timeSinceLevelLoad > CinematicManager.c_time) {
             Vector3 movement = new Vector3 (speed_x, -speed_y, 0.0f);
 
-            transform.Translate (movement);
+            transform.Translate (movement * Time.deltaTime * 60);
         }
         if ((Time.timeSinceLevelLoad - now > cooldown) && (Vector3.Distance(transform.position, player.transform.position) < 10f)) {
             SoundManager.Vroum();

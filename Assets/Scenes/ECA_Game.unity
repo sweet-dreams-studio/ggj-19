@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32e3ce55f03a0994b928d93848a93b99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.2
+  speed: 0.17
   mask: {fileID: 2024143334}
 --- !u!65 &40866954
 BoxCollider:
@@ -1906,6 +1906,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931811115, guid: f3f4e1fa013107a4b9d5aa00e8a78689, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -38
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3f4e1fa013107a4b9d5aa00e8a78689, type: 3}
